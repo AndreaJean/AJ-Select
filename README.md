@@ -2,7 +2,21 @@
 
 基于js，jquery的下拉框插件。
 
-支持功能：单选、多选、下拉树、选项搜索
+支持功能：
+
+  1、基础单选；
+
+  2、可清空单选；
+
+  3、基础多选；
+
+  4、设置默认选中项
+  
+  5、树形结构单、多选
+
+  6、设置前置文字
+
+  7、可过滤选项
 
 
 ## 引用
@@ -12,6 +26,7 @@
 <script type="text/javascript" src="js/tree.js"></script>
 <script type="text/javascript" src="js/select.js"></script>
 ```
+- 选项为列表形式时可不引用tree.js
 
 ## 调用
 
