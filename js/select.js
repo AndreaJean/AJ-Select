@@ -519,9 +519,9 @@ let AjSelect = function (options) {
       bgColorSel: ''
     },
     callback: {
-      clearOver: null,
+      clearOver: null, //清空事件
       selectOver: null, // 选中项改变
-      dataOver: null,
+      dataOver: null, // 选项加载完毕
       setData: null // 调用$_setData后
     }
   }
