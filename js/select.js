@@ -251,9 +251,11 @@ let AjSelect = function (options) {
       }
       this.body.css(this.getBodyPosition(flag))
     },
+    // 获取选项面板出现位置信息
     getBodyPosition (flag) {
       let h = this.body.outerHeight()
-      let bottom = $(window).height() - this.header.offset().top - this.header.outerHeight() - 2
+      let scrollH = $(document).scrollTop()
+      let bottom = $(window).height() - (this.header.offset().top - scrollH) - this.header.outerHeight() - 2
       let css = {}
       if (h <= bottom) {
         css = {
