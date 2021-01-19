@@ -134,6 +134,7 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
   background: #fff;
   border-radius: 4px;
   min-width: 200px;
+  max-width: 400px;
   box-sizing: border-box;
   box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
   top: 35px;
